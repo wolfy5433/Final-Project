@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BanUsers</class>
+ <widget class="QWidget" name="BanUsers">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>513</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="banUsersLb">
+     <property name="text">
+      <string>Banned users</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QTextBrowser" name="listOfBannedUsrs"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="unbanLb">
+     <property name="text">
+      <string>Enter user's login to unban him</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="unBanLn"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="unbanBtn">
+     <property name="text">
+      <string>Unban</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

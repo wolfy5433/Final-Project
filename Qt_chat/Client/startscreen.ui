@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>StartScreen</class>
+ <widget class="QDialog" name="StartScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>259</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Messanger</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QStackedWidget" name="lgnAndRegForms">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="Login" name="loginPage"/>
+     <widget class="Registration" name="regPage"/>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Login</class>
+   <extends>QWidget</extends>
+   <header>login.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>Registration</class>
+   <extends>QWidget</extends>
+   <header>registration.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
